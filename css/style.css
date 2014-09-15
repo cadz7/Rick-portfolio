@@ -781,3 +781,7 @@
 .icon-color {
 	color: #3A6C99 !important;
 }
+
+.left-padding-mobile {
+	padding-left: 2em;
+}
