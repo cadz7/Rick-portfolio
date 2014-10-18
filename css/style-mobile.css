@@ -184,11 +184,28 @@
 
 		#top .image
 		{
-			width: 70%;
+			width: 50%;
 			height: auto;
-			margin: 0 auto 1.75em auto;
+			margin: 0 auto 4.75em auto;
 		}
 	
+		#top h1
+		{
+			margin-top: 0.35em;
+		}
+	
+		#top h3 {
+			color: #fff;
+			font-size: 30px;
+			font-weight: 200;
+		}
+		#top p
+		{
+			color: #fff;
+			font-size: 1.3em;
+			line-height: 1.75em;
+		}
+
 	#contact
 	{
 	}
