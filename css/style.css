@@ -305,7 +305,6 @@
 				display: block;
 				width: 100%;
 			}
-
 			.image.fit
 			{
 				display: block;
@@ -319,6 +318,9 @@
 				-webkit-transition-delay: 0.2s;
 				-o-transition-delay: 0.2s;
 				transition-delay: 0.2s;
+			}
+			.image img {
+				box-shadow: 1px 1px 25px 3px rgba(0, 0, 0, 0.48);
 			}
 			
 			.image.featured
