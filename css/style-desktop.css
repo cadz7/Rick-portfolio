@@ -1,8 +1,4 @@
-/*
-	Miniport by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 /*********************************************************************************/
 /* Basic                                                                         */
@@ -25,12 +21,6 @@
 		letter-spacing: -0.015em;
 	}
 	
-	h3
-	{
-		font-size: 1.5em;
-		letter-spacing: -0.015em;
-	}
-
 	h1, h2, h3, h4, h5, h6
 	{
 		margin: 0 0 0.75em 0;
@@ -192,11 +182,39 @@
 			margin-top: 0.35em;
 		}
 	
+		#top h3 {
+			color: #fff;
+			font-size: 30px;
+			font-weight: 200;
+		}
 		#top p
 		{
-			color: rgb(90, 90, 90);
+			color: #fff;
 			font-size: 1.3em;
 			line-height: 1.75em;
+		}
+
+		#top .pulse {
+			width: 200px;
+			height: 200px;
+			border-radius: 200px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 11;
+			margin: 0;
+			opacity: 0;
+			box-shadow: 0 0 1px 1px #b3c5ec;
+			-webkit-animation: pulsate 3s ease-out;
+			-moz-animation: pulsate 3s ease-out;
+			-o-animation: pulsate 3s ease-out;
+			animation: pulsate 3s ease-out;
+			-webkit-animation-iteration-count: infinite;
+			-o-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+			-webkit-animation-delay: 2s;
+			-o-animation-delay: 2s;
+			animation-delay: 2s;
 		}
 		
 	#contact
