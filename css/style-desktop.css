@@ -177,6 +177,12 @@
 			margin-left: 3em;
 		}
 
+		#top .image.fit
+			{
+				transform: translateX(10%);
+				-webkit-transform: translateX(10%);
+			}
+
 		#top h1
 		{
 			margin-top: 0.35em;

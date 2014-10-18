@@ -310,6 +310,8 @@
 			{
 				display: block;
 				width: 100%;
+/*				transform: translateX(10%);
+				-webkit-transform: translateX(10%);*/
 				-webkit-transition: all 0.6s ease-out;
 				-o-transition: all 0.6s ease-out;
 				transition: all 0.6s ease-out;
@@ -618,6 +620,7 @@
 			background: url("http://www.blirk.net/wallpapers/1920x1080/gradient-wallpaper-3.jpg");
 			text-rendering: optimizeLegibility;
 			-webkit-font-smoothing: antialiased;
+			box-shadow: 1px 5px 15px 10px rgba(0,0,0,0.5);
 
 		}
 
@@ -634,6 +637,10 @@
 		{
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
+			color: rgb(0, 0, 0);
+			text-rendering: optimizeLegibility;
+			-webkit-font-smoothing: antialiased;
+			box-shadow: 1px 5px 15px 10px rgba(0,0,0,0.5);
 		}
 		
 		.wrapper.style3
@@ -641,7 +648,12 @@
 			background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
 			padding: 4em 0 4em 0;
+			color: rgb(0, 0, 0);
+			text-rendering: optimizeLegibility;
+			-webkit-font-smoothing: antialiased;
+			box-shadow: 1px 5px 15px 10px rgba(0,0,0,0.5);
 		}
+
 
 		.wrapper.style4
 		{
@@ -649,6 +661,7 @@
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 			padding: 4em 0 0 0;
+			box-shadow: 1px 5px 15px 10px rgba(0,0,0,0.5);
 		}
 
 			.wrapper.style4 h1, 
