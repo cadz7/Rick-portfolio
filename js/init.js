@@ -26,6 +26,7 @@
 			
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
+				$body.addClass('loaded');
 			});
 			
 		// Forms (IE<10).
