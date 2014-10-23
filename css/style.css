@@ -813,5 +813,6 @@
 }
 
 .left-padding-mobile {
+	margin-left: 5em;
 	padding-left: 2em;
 }
