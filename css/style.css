@@ -13,12 +13,27 @@
 		font-family: 'PT Serif', serif;
 	}
 
+	body {
+		opacity: 0;
+		filter: alpha(opacity=@opacity * 100);
+		-webkit-transition: opacity ease-in-out 1s;
+		-moz-transition: opacity ease-in-out 1s;
+		-ms-transition: opacity ease-in-out 1s;
+		-o-transition: opacity ease-in-out 1s;
+		transition: opacity ease-in-out 1s;
+	}
+
+	body.loaded {
+		opacity: 1;
+	}
+
 	body,input,textarea,select
 	{
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
 		color: #888;
 		font-weight: 300;
+		background: black;
 
 	}
 

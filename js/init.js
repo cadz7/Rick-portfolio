@@ -25,8 +25,11 @@
 			$body.addClass('is-loading');
 			
 			$window.on('load', function() {
-				$body.removeClass('is-loading');
-				$body.addClass('loaded');
+				setTimeout(function(){
+					$body.removeClass('is-loading');
+					$body.addClass('loaded');	
+				}, 100);
+				
 			});
 			
 		// Forms (IE<10).
